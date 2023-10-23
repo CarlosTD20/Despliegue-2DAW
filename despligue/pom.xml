@@ -48,7 +48,8 @@
 				<executions>
 					<execution>
 						<id>compile-scss</id>
-						<phase>generate-sources</phase> <!-- Puedes ajustar la fase según tus necesidades -->
+						<!--<phase>generate-resources</phase> --> <!-- Puedes ajustar la fase según tus necesidades -->
+						<phase>process-resources</phase>
 						<goals>
 							<goal>exec</goal>
 						</goals>
