@@ -1,0 +1,15 @@
+{
+  "name": "despligue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "sass  ./src/main/resources/static/scss/main.scss ./src/main/resources/static/css/main.css",
+    "build-typescript": "",
+    "rm-scss-target": "rmdir ./target/classes/static/scss  ",
+    "build": ".\\scripts\\build.bat"
+  },
+  "author": "",
+  "license": "ISC"
+}
